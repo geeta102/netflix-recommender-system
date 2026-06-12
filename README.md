@@ -6,11 +6,11 @@ A machine learning project that builds a movie recommendation system using the N
 
 This project predicts user ratings and generates personalized Top-10 movie recommendations using collaborative filtering techniques.
 
-The full Netflix Prize dataset is very large, so a reproducible subset of 250,000 ratings is used for local training and evaluation.
+The full Netflix Prize dataset is very large, so this project uses a reproducible subset of 250,000 ratings for local training and evaluation.
 
 ## Tech Stack
 
-Python, pandas, numpy, scipy, scikit-learn, matplotlib, seaborn
+Python, pandas, NumPy, SciPy, scikit-learn, Matplotlib, Seaborn
 
 ## Models
 
@@ -27,7 +27,7 @@ Python, pandas, numpy, scipy, scikit-learn, matplotlib, seaborn
 | Bias Baseline | 1.1127 | 0.9295 |
 | Matrix Factorization SVD | 1.1682 | 0.9010 |
 
-A movie is considered relevant for MAP@10 if its actual rating is `>= 3.5`.
+A movie is considered relevant for MAP@10 if its actual rating is greater than or equal to 3.5.
 
 ## Project Structure
 
@@ -44,10 +44,12 @@ src/
 ├── 09_map_at_10.py
 └── 10_final_results.py
 
-How to Run
+ ## How to run
+
 Install dependencies:
 pip install -r requirements.txt
-Place the Netflix dataset zip at:
+
+Place the Netflix dataset zip file at:
 data/archive.zip
 
 Run the scripts in order:
@@ -62,29 +64,18 @@ python src/08_compare_models.py
 python src/09_map_at_10.py
 python src/10_final_results.py
 
-Key Insight
-The Bias Baseline model performed best on this subset because the data is highly sparse. SVD can improve with more data, better sampling, and hyperparameter tuning.
-Future Work
+ ## Key Insight
+The Bias Baseline model performed best on this subset because the data is highly sparse. Matrix Factorization SVD may improve with more data, better sampling, and hyperparameter tuning.
+
+ ## Future Work
 Train on a larger subset
 Add item-based collaborative filtering
 Tune SVD parameters
 Add movie metadata features
 Build an interactive dashboard
 
-Ye README GitHub ke liye better hai because:
+ ## Presentation and Technical Report
+[Presentation](https://docs.google.com/presentation/d/11NM2JJ7BXgd1pV55hdfnkK2SjAgxpJo0/edit?usp=sharing&ouid=103462315502597560969&rtpof=true&sd=true)
+- [Technical Report](https://drive.google.com/file/d/10NA7sM4AJbmjmTpsoT_3bRKbJOjKeTlu/view?usp=sharing)
+GitHub Markdown ka forma
 
-- short hai
-- result table clear hai
-- run instructions clear hain
-- unnecessary theory nahi hai
-
-Save karo, phir run:
-
-```bash
-git add README.md
-git commit -m "Simplify README"
-git push
-
-## Presentation and technical report
-https://docs.google.com/presentation/d/11NM2JJ7BXgd1pV55hdfnkK2SjAgxpJo0/edit?usp=sharing&ouid=103462315502597560969&rtpof=true&sd=true
-https://drive.google.com/file/d/10NA7sM4AJbmjmTpsoT_3bRKbJOjKeTlu/view?usp=sharing
