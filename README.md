@@ -56,9 +56,8 @@ Place the Netflix dataset zip file at:
 
 data/archive.zip
 
+## Run the scripts in order:
 ```
-
-Run the scripts in order:
 python src/01_inspect_dataset.py
 python src/02_prepare_data.py
 python src/03_eda.py
