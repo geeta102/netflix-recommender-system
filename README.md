@@ -75,11 +75,13 @@ python src/10_final_results.py
 The Bias Baseline model performed best on this subset because the data is highly sparse. Matrix Factorization SVD may improve with more data, better sampling, and hyperparameter tuning.
 
  ## Future Work
+ ```
 Train on a larger subset
 Add item-based collaborative filtering
 Tune SVD parameters
 Add movie metadata features
 Build an interactive dashboard
+````
 
  ## Presentation and Technical Report
 [Presentation](https://docs.google.com/presentation/d/11NM2JJ7BXgd1pV55hdfnkK2SjAgxpJo0/edit?usp=sharing&ouid=103462315502597560969&rtpof=true&sd=true)
