@@ -31,7 +31,7 @@ A movie is considered relevant for MAP@10 if its actual rating is greater than o
 
 ## Project Structure
 
-```text
+
 src/
 ├── 01_inspect_dataset.py
 ├── 02_prepare_data.py
