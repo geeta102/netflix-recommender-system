@@ -85,3 +85,6 @@ git add README.md
 git commit -m "Simplify README"
 git push
 
+## Presentation and technical report
+https://docs.google.com/presentation/d/11NM2JJ7BXgd1pV55hdfnkK2SjAgxpJo0/edit?usp=sharing&ouid=103462315502597560969&rtpof=true&sd=true
+https://drive.google.com/file/d/10NA7sM4AJbmjmTpsoT_3bRKbJOjKeTlu/view?usp=sharing
