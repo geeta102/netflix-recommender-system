@@ -49,9 +49,11 @@ src/
  ## How to run
 
 Install dependencies:
+
 pip install -r requirements.txt
 
 Place the Netflix dataset zip file at:
+
 data/archive.zip
 
 ```
