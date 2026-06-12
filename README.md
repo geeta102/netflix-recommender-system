@@ -31,6 +31,7 @@ A movie is considered relevant for MAP@10 if its actual rating is greater than o
 
 ## Project Structure
 
+```text
 
 src/
 ├── 01_inspect_dataset.py
@@ -43,6 +44,7 @@ src/
 ├── 08_compare_models.py
 ├── 09_map_at_10.py
 └── 10_final_results.py
+ ```
 
  ## How to run
 
@@ -51,6 +53,8 @@ pip install -r requirements.txt
 
 Place the Netflix dataset zip file at:
 data/archive.zip
+
+```
 
 Run the scripts in order:
 python src/01_inspect_dataset.py
@@ -64,6 +68,8 @@ python src/08_compare_models.py
 python src/09_map_at_10.py
 python src/10_final_results.py
 
+```
+
  ## Key Insight
 The Bias Baseline model performed best on this subset because the data is highly sparse. Matrix Factorization SVD may improve with more data, better sampling, and hyperparameter tuning.
 
@@ -76,6 +82,6 @@ Build an interactive dashboard
 
  ## Presentation and Technical Report
 [Presentation](https://docs.google.com/presentation/d/11NM2JJ7BXgd1pV55hdfnkK2SjAgxpJo0/edit?usp=sharing&ouid=103462315502597560969&rtpof=true&sd=true)
-- [Technical Report](https://drive.google.com/file/d/10NA7sM4AJbmjmTpsoT_3bRKbJOjKeTlu/view?usp=sharing)
-GitHub Markdown ka forma
+[Technical Report](https://drive.google.com/file/d/10NA7sM4AJbmjmTpsoT_3bRKbJOjKeTlu/view?usp=sharing)
+
 
